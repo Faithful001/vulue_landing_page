@@ -21,19 +21,21 @@ const NavBar = () => {
 						!isOpen ? "-right-[300px]" : "right-0"
 					}`}
 				>
-					<a href="#" className="text-xs ml-5">
+					<a href="#" className="text-xs ml-5" onClick={() => setIsOpen(false)}>
 						Account Settings
 					</a>
-					<a href="#" className="text-xs ml-5">
+					<a href="#" className="text-xs ml-5" onClick={() => setIsOpen(false)}>
 						Dashboard
 					</a>
-					<a href="#" className="text-xs ml-5">
+					<a href="#" className="text-xs ml-5" onClick={() => setIsOpen(false)}>
 						Our Offering
 					</a>
-					<a href="#" className="text-xs ml-5">
+					<a href="#" className="text-xs ml-5" onClick={() => setIsOpen(false)}>
 						Investor Relations
 					</a>
-					<a className="text-xs ml-5">Contact Us</a>
+					<a className="text-xs ml-5" onClick={() => setIsOpen(false)}>
+						Contact Us
+					</a>
 					<img
 						src={uk}
 						alt=""

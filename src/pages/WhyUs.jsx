@@ -45,7 +45,7 @@ const WhyUs = () => {
 						Over 7 provisional offices across Nigeria
 					</div>
 				</div>
-				<div className="cd6 rounded-lg border-b-2 border-white p-5 mx-5 flex flex-col items-center">
+				<div className="cd6 rounded-lg border-b-2 border-white p-5 mx-1 flex flex-col items-center">
 					<div>
 						<img src={market} alt="" className="h-6" />
 					</div>
