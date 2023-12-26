@@ -17,7 +17,7 @@ const NavBar = () => {
 					<p className="font-semibold">VULUE</p>
 				</div>
 				<div
-					className={`nav-text flex transition-all duration-500 ease-in ${
+					className={`nav-text flex transition-all duration-300 ease-in ${
 						!isOpen ? "-right-[300px]" : "right-0"
 					}`}
 				>
