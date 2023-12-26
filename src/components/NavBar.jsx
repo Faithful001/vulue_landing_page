@@ -10,7 +10,7 @@ const NavBar = () => {
 		setIsOpen(!isOpen);
 	}
 	return (
-		<div className="navbar px-10 py-6 pt-8 bg-[#000000] z-20 fixed w-screen opacity-90 -mt-[62px]">
+		<div className="navbar px-10 py-6 pt-8 z-20 fixed w-screen">
 			<div className="section flex justify-between">
 				<div className="flex items-center">
 					<img src={vulue_logo} alt="" className="h-7 mr-2" />

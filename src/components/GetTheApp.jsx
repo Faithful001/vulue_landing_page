@@ -6,10 +6,10 @@ const GetTheApp = () => {
 	return (
 		<div className="gettheapp flex items-center px-10 -mt-14">
 			<div>
-				<img src={phone} alt="" className="phone max-h-[40rem]" />
+				<img src={phone} alt="" className="phone max-h-[40rem] -mb-20" />
 			</div>
 			<div className="phone-texts pr-5">
-				<p className="phone-text font-bold text-3xl leading-10 mb-5">
+				<p className="phone-text font-bold text-xl md:text-3xl leading-10 mb-5">
 					You Can Get The Vulue App On These Platforms{" "}
 				</p>
 				<img

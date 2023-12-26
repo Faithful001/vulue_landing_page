@@ -1,16 +1,18 @@
 import "./App.css";
-import Features from "./pages/Features";
-import Footer from "./pages/Footer";
-import GetTheApp from "./pages/GetTheApp";
-import Home from "./pages/Home";
-import License from "./pages/License";
-import WhyUs from "./pages/WhyUs";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+import GetTheApp from "./components/GetTheApp";
+import Home from "./components/Home";
+import License from "./components/License";
+import WhyUs from "./components/WhyUs";
 
 function App() {
 	return (
 		<div className="">
 			<Home />
-			<Features />
+			<div className="flex items-center justify-center">
+				<Features />
+			</div>
 			<WhyUs />
 			<License />
 			<GetTheApp />

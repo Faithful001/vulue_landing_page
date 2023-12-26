@@ -1,16 +1,16 @@
-import girl_with_phone from "../assets/images/sprites/girl_with_phone.svg";
 import earn_icon from "../assets/images/icons/earn_icon.svg";
 import digital_wallet from "../assets/images/icons/digital_wallet.svg";
 import cards_icon from "../assets/images/icons/cards_icon.svg";
+import girl_with_phone from "../assets/images/sprites/girl_with_phone.svg";
 
-const Body = () => {
+const Hero = () => {
 	return (
-		<div className="body flex justify-between items-center bg-black mt-[62px]">
+		<div className="hero flex justify-between items-center bg-black mt-[62px]">
 			<div className="flex flex-col justify-between py-20 mx-10">
-				<div className="rounded-[50%] h-[25rem] w-[25rem] bg-[#85BBFF] blur-3xl absolute left-0 top-0 opacity-20" />
+				{/* <div className="rounded-[50%] h-[25rem] w-[25rem] bg-[#85BBFF] blur-3xl absolute left-0 top-0 opacity-20" /> */}
 				{/* <div className="rounded-[50%] h-[10rem] w-[10rem] bg-[#FFE9C559] blur-3xl absolute left-20 top-32 opacity-70" /> */}
 				<div className="mb-10 z-10">
-					<h1 className="text-4xl text-[#0170E3] font-semibold max-w-lg">
+					<h1 className="text-3xl md:text-4xl text-[#0170E3] font-semibold max-w-lg">
 						Innovative Products And Expert Ingenuity At Your FingerTips
 					</h1>
 					<p className="text-sm max-w-sm mt-5 font-light z-10">
@@ -22,7 +22,7 @@ const Body = () => {
 					</p>
 				</div>
 				<div>
-					<button className="bg-[#0170E3] rounded-md p-3 px-7">
+					<button className="bg-[#0170E3] rounded-md p-3 mb-2 px-7">
 						Start investing
 					</button>
 					<p className="text-xs font-light">
@@ -30,7 +30,7 @@ const Body = () => {
 					</p>
 				</div>
 			</div>
-			<div className="lg:block hidden">
+			<div className="hero-picture">
 				<img
 					src={earn_icon}
 					alt=""
@@ -54,4 +54,4 @@ const Body = () => {
 	);
 };
 
-export default Body;
+export default Hero;
