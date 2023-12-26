@@ -59,7 +59,7 @@ const FeaturesCarousel = () => {
 		<div className="flex flex-col items-center justify-center">
 			<div
 				ref={featuresCarouselRef}
-				className="features-carousel flex items-center justify-between overflow-x-auto"
+				className="features-carousel flex items-center justify-between overflow-x-auto overflow-y-hidden"
 			>
 				{/* cards */}
 				{FeaturesCarouselData.map((data, index) => (

@@ -9,12 +9,6 @@ const Footer = () => {
 	const [areYouIsOpen, setAreYouIsOpen] = useState(false);
 	const [financialIsOpen, setFinancialIsOpen] = useState(false);
 
-	console.log(investmentIsOpen);
-	console.log(legalIsOpen);
-	console.log(clientIsOpen);
-	console.log(areYouIsOpen);
-	console.log(financialIsOpen);
-
 	function handleInvestment() {
 		setInvestmentIsOpen(!investmentIsOpen);
 		setLegalIsOpen(false);
@@ -124,7 +118,9 @@ const Footer = () => {
 											expand_more
 										</span>
 									) : (
-										<span class="material-symbols-outlined">expand_less</span>
+										<span className="material-symbols-outlined">
+											expand_less
+										</span>
 									)}
 								</div>
 								<p
@@ -146,7 +142,9 @@ const Footer = () => {
 											expand_more
 										</span>
 									) : (
-										<span class="material-symbols-outlined">expand_less</span>
+										<span className="material-symbols-outlined">
+											expand_less
+										</span>
 									)}
 								</div>
 								<p
@@ -168,7 +166,9 @@ const Footer = () => {
 											expand_more
 										</span>
 									) : (
-										<span class="material-symbols-outlined">expand_less</span>
+										<span className="material-symbols-outlined">
+											expand_less
+										</span>
 									)}
 								</div>
 								<p
@@ -190,7 +190,9 @@ const Footer = () => {
 											expand_more
 										</span>
 									) : (
-										<span class="material-symbols-outlined">expand_less</span>
+										<span className="material-symbols-outlined">
+											expand_less
+										</span>
 									)}
 								</div>
 								<p
