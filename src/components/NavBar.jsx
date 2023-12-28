@@ -10,7 +10,7 @@ const NavBar = () => {
 		setIsOpen(!isOpen);
 	}
 	return (
-		<div className="navbar px-10 pt-[85px] pb-5 z-20 fixed w-screen">
+		<div className="navbar px-10 pt-[80px] pb-5 z-20 fixed w-screen">
 			<div className="section flex justify-between">
 				<div className="flex items-center z-10">
 					<img src={vulue_logo} alt="" className="h-7 mr-1" />
@@ -43,7 +43,7 @@ const NavBar = () => {
 					/>
 				</div>
 				<span
-					className="material-symbols-outlined cursor-pointer md:hidden block z-10 text-[#455A64]"
+					className="material-symbols-outlined cursor-pointer text-3xl md:hidden block z-10 text-[#455A64]"
 					onClick={handleNavBar}
 				>
 					menu
