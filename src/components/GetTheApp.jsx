@@ -9,18 +9,18 @@ const GetTheApp = () => {
 				<img src={phone} alt="" className="phone max-h-[40rem] -mb-20" />
 			</div>
 			<div className="phone-texts pr-5">
-				<p className="phone-text font-bold text-xl md:text-3xl leading-10 mb-5">
+				<p className="phone-text font-bold text-xl md:text-2xl leading-10 mb-5">
 					You Can Get The Vulue App On These Platforms{" "}
 				</p>
 				<img
 					src={appstore}
 					alt=""
-					className="phone-button cursor-pointer mb-3 h-14"
+					className="phone-button cursor-pointer mb-3 h-10"
 				/>
 				<img
 					src={playstore}
 					alt=""
-					className="phone-button cursor-pointer h-14"
+					className="phone-button cursor-pointer h-10"
 				/>
 			</div>
 		</div>
