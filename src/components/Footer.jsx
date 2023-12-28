@@ -1,6 +1,11 @@
 "use client";
-
+import vulue_logo from "../assets/images/logo/logo.png";
 import { useState } from "react";
+import twitter from "../assets/images/icons/twitter.svg";
+import linkedin from "../assets/images/icons/linkedin.svg";
+import telegram from "../assets/images/icons/telegram.svg";
+import youtube from "../assets/images/icons/youtube.svg";
+import discord from "../assets/images/icons/discord.svg";
 
 const Footer = () => {
 	const [investmentIsOpen, setInvestmentIsOpen] = useState(false);
@@ -47,7 +52,27 @@ const Footer = () => {
 	}
 	return (
 		<div className="p-10">
-			<div className="footer flex justify-between">
+			<div className="footer relative mb-[13rem] md:mb-0 flex justify-between ">
+				{/* logo side of the footer */}
+				<div className="absolute flex flex-col gap-3 bottom-[-170px] left-0 md:static">
+					<div className="flex items-end">
+						<img src={vulue_logo} alt="" className="h-10" />
+						<p className="font-semibold text-[20px]">VULUE</p>
+					</div>
+
+					<div>
+						<p className="text-[#8C87A6] font-semibold">
+							BE PART OF OUR COMMUNITY
+						</p>
+					</div>
+					<div className="flex gap-2">
+						<img src={twitter} alt="" className="h-8 cursor-pointer" />
+						<img src={linkedin} alt="" className="h-8 cursor-pointer" />
+						<img src={telegram} alt="" className="h-8 cursor-pointer" />
+						<img src={youtube} alt="" className="h-8 cursor-pointer" />
+						<img src={discord} alt="" className="h-8 cursor-pointer" />
+					</div>
+				</div>
 				{/* left side of the footer */}
 				<div className="gap-5 grid grid-cols-1">
 					<div>
@@ -227,7 +252,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<p className="text-sm font-light mt-8">{`©${new Date().getFullYear()} Vulue Technologies`}</p>
+			<p className="text-sm  text-center font-light mt-8">{`©${new Date().getFullYear()} Vulue Technologies`}</p>
 		</div>
 	);
 };
