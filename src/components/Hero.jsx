@@ -5,7 +5,7 @@ import girl_with_phone from "../assets/images/sprites/girl_with_phone.svg";
 
 const Hero = () => {
 	return (
-		<div className="hero flex justify-between items-center bg-black h-screen">
+		<div className="hero flex justify-between pt-[4rem] items-center bg-black h-full">
 			<div className="flex flex-col justify-between py-20 mx-10 -mt-10">
 				{/* <div className="rounded-[50%] h-[25rem] w-[25rem] bg-[#85BBFF] blur-3xl absolute left-0 top-0 opacity-20" /> */}
 				{/* <div className="rounded-[50%] h-[10rem] w-[10rem] bg-[#FFE9C559] blur-3xl absolute left-20 top-32 opacity-70" /> */}
@@ -22,7 +22,7 @@ const Hero = () => {
 					</p>
 				</div>
 				<div>
-					<button className="bg-[#0170E3] rounded-md p-3 mb-2 px-7">
+					<button className="bg-[#0170E3] text-sm rounded-md p-3 mb-2 px-7">
 						Start investing
 					</button>
 					<p className="text-xs font-light">
